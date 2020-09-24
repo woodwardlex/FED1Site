@@ -6,25 +6,32 @@
     <meta name="author" content="Alexis G. Woodward" />
     <title>Classes</title>
     <style>
-        #
         .headingStyle
         {
             font-size: 30px;
         }
         .articleStyle
         {
-            font-size: 26px;
+            font-size: 17px;
         }
         .pStyle
         {
             font-size: small;
+            font-weight: 400;
+        }
+        .liStyle
+        {
+            font-size: smaller;
+            font-weight: lighter;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 style="font-size: 20px; font-weight: lighter; color: grey;">Company Name</h1>
-        <p style="font-size: 18px; font-weight: lighter; color: grey;">
+        <h1 style="font-size: medium; font-weight: lighter; color: grey;">
+            Company Name
+        </h1>
+        <p style="font-size: smaller; font-weight: lighter; color: grey;">
             I love cheese, especially blue castello bavarian bergkase. Boursin monterey jack manchego bocconcini danish fontina jarlsberg cheese triangles cauliflower cheese. Cheeseburger emmental bocconcini say cheese stinking bishop when the cheese comes out everybody's happy cheese and wine edam. Goat.
         </p>
     </header>
@@ -97,10 +104,29 @@
             </article>
         </section>
         <section>
-            <h2>
+            <h2 class="headingStyle">
                 [Subject] - Class List
             </h2>
+            <section>
+                <h3 style="font-size: 15px;">
+                    #    First Name    Last Name   User Name
+                </h3>
+                <ol>
+                    <li class="liStyle">
+                        FED1       Chris      Meets
+                    </li>
+                    <li class="liStyle">
+                        Jacob     Thorton     @fat
+                    </li>
+                    <li class="liStyle">
+                        Larry     theBird     @twitter
+                    </li>
+                </ol>
+            </section>
         </section>
     </main>
+    <footer>
+        &copy;All Rights Reserved 2020
+    </footer>
 </body>
 </html>
