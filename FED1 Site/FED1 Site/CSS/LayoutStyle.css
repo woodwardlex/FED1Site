@@ -1,0 +1,47 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Abel&family=Catamaran:wght@300&family=Domine&family=Grenze+Gotisch:wght@300&family=Play&display=swap');
+/*
+    Google Fonts
+    font-family: 'Abel', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Domine', serif;
+    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Play', sans-serif;
+*/
+
+h1 {
+    font-size: 23px;
+    font-weight: lighter;
+    color: grey;
+    font-family: 'Grenze Gotisch', cursive;
+    padding: 5px;
+}
+.pStyle {
+    color: tan;
+    font-size: smaller;
+    font-family: 'Abel', sans-serif;
+}
+.headingStyle {
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+}
+.articleStyle {
+    font-size: 17px;
+    font-family: 'Domine', serif;
+}
+.liStyle {
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: 'Domine', serif;
+}
+body {
+    background-color: #DBAA6E;
+}
+
+body header {
+    background-color:blanchedalmond;
+    border-bottom: medium;
+    border-top: medium;
+}
+
