@@ -7,8 +7,17 @@
     font-family: 'Grenze Gotisch', cursive;
     font-family: 'Play', sans-serif;
 */
+/*
+    Theme Colors
+    (body)background-color: tan;
+    #59433B
+    #8C6D51
+    #593C22
+    #BFA380
+    #D9C091
+*/
 
-h1 {
+header h1 {
     font-size: 23px;
     font-weight: lighter;
     color: grey;
@@ -23,7 +32,7 @@ h1 {
 .headingStyle {
     color: grey;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Play', sans-serif;
 }
 .articleStyle {
@@ -36,10 +45,10 @@ h1 {
     font-family: 'Domine', serif;
 }
 body {
-    background-color: tan;
+    background-color: #593C22;
 }
 body header {
-    background-color:blanchedalmond;
+    background-image: /*tan;*/linear-gradient(90deg, tan, #593C22);
     border-bottom: medium;
     border-top: medium;
 }
@@ -49,13 +58,34 @@ article section{
     margin: 3px;
 }
 
-/*nav li:hover{
-    color: 
-    background-color: tan;
-}*/
+nav li:hover {
+    color: #C78D42;
+    background-color: #FAB353;
+}
 
-nav ul li{
+nav ul li {
     list-style: none;
     display: inline-block;
     padding: 10px;
+    color: #C78D42;
+    font-size: 18px;
+
 }
+nav {
+    background-color: antiquewhite;
+    border-top: solid;
+    border-bottom: solid;
+}
+header p {
+    color: brown;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    font-weight:600;
+    padding: 2px;
+}
+
+/*TABLE STYLING*/
+/*body table {
+    text-align: center;
+}*/
+
