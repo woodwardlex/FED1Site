@@ -1,4 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Abel&family=Catamaran:wght@300&family=Domine&family=Grenze+Gotisch:wght@300&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil+Display:wght@600&family=Fredericka+the+Great&family=Homemade+Apple&family=Rock+Salt&display=swap');
 /*
     Google Fonts
     font-family: 'Abel', sans-serif;
@@ -6,53 +7,44 @@
     font-family: 'Domine', serif;
     font-family: 'Grenze Gotisch', cursive;
     font-family: 'Play', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Rock Salt', cursive;
+
 */
 /*
     Theme Colors
     (body)background-color: tan;
-    #59433B
+    #59433B - dark brown
     #8C6D51
-    #593C22
+    #593C22 - background color
     #BFA380
-    #D9C091
+    #D9C091 - light brown
 */
 
-header h1 {
-    font-size: 23px;
+/*Header CSS*/
+#header{
+    font-size: 40px;
     font-weight: lighter;
-    color: grey;
+    color: #59433B;
     font-family: 'Grenze Gotisch', cursive;
-    padding: 5px;
-}
-.pStyle {
-    color: #DBAA6E;
-    font-size: smaller;
-    font-family: 'Abel', sans-serif;
-}
-.headingStyle {
-    color: grey;
-    font-weight: bold;
-    font-size: 22px;
-    font-family: 'Play', sans-serif;
-}
-.articleStyle {
-    font-size: 17px;
-    font-family: 'Domine', serif;
-}
-.listyle {
-    font-size: smaller;
-    font-weight: lighter;
-    font-family: 'Domine', serif;
-}
-body {
-    background-color: #593C22;
-}
-body header {
-    background-image: /*tan;*/linear-gradient(90deg, tan, #593C22);
-    border-bottom: medium;
-    border-top: medium;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 
+#slogan {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8C6D51;
+    margin-bottom: 1em;
+    margin-left: .5em;
+    font-family: 'Rock Salt', cursive;
+}
+
+/*Nav CSS*/
 article section{
     border: solid black;
     margin: 3px;
@@ -76,13 +68,58 @@ nav {
     border-top: solid;
     border-bottom: solid;
 }
-header p {
-    color: brown;
+
+
+/*Home Body CSS*/
+h2.aboutHeader {
+    text-align: center;
+    color: tan;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Fredericka the Great', cursive;
+}
+#about {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.pStyle {
+    color: #DBAA6E;
     font-size: 20px;
     font-family: 'Abel', sans-serif;
-    font-weight:600;
-    padding: 2px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    text-align: center;
 }
+.headingStyle {
+    color: #8C6D51;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 1em;
+}
+.articleStyle {
+    font-size: 17px;
+    font-family: 'Domine', serif;
+}
+.listyle {
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: 'Domine', serif;
+}
+body {
+    background-color: #593C22;
+}
+body header {
+    background-image: /*tan;*/linear-gradient(90deg, tan, #593C22);
+    border-bottom: medium;
+    border-top: medium;
+}
+
 
 /*TABLE STYLING*/
 /*body table {
