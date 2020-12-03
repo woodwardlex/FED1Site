@@ -70,6 +70,16 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\LayoutStyle.css" />
+    <Content Include="images\EmbroideredWood.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\GreyBarkWoodPile.jpg" />
+    <Content Include="images\Guy2StaffWoodwork.jpg" />
+    <Content Include="images\GuyStaffWoodwork.jpg" />
+    <Content Include="images\StaffCollabPic.jpg" />
+    <Content Include="images\StudentTeacherCollabPic.jpg" />
+    <Content Include="images\TallWoodStack.jpg" />
+    <Content Include="images\WomanStaffWoodwork.jpg" />
+    <Content Include="images\WoodFurniture.jpg" />
     <Content Include="index.html" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
@@ -86,9 +96,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
