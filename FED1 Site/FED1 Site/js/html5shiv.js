@@ -1,36 +1,4 @@
-﻿Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@woodwardlex 
-aFarkas
-/
-html5shiv
-600
-9.8k2.6k
-Code
-Issues
-42
-Pull requests
-20
-Actions
-Projects
-Wiki
-Security
-Insights
-html5shiv/dist/html5shiv.js /
-
-aFarkas 3.7.3
-Latest commit ed28c56 on Jul 20, 2015
- History
- 2 contributors
-@jonathantneal@fakundo
-326 lines (281 sloc)  10.1 KB
-  
+﻿
 /**
 * @preserve HTML5 Shiv 3.7.3 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 */

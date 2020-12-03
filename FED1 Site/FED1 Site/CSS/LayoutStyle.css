@@ -102,6 +102,11 @@ h2.aboutHeader {
     float: left;
     width: 75%;
 }
+
+.pStyleL img{
+    float: right;
+    width: 25%;
+}
 .headingStyle {
     color: #8C6D51;
     font-weight: 400;
